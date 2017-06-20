@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navContainer {
+  background-color: CornflowerBlue;
+  width: 100%;
+  height: auto;
+}
+
+.navigation {
+  position: fixed;
+  top: 0px;
+  background-color: CornflowerBlue;
+  width: 100%;
+  height: 90px;
+  z-index: 9997;
+
+}
+
+.barContainer {
+  position: fixed;
+  top: 0px;
+  width: 10px;
+  height: 100%;
+  background-color: hsl(350, 100%, 90%);
+  z-index: 9999;
+}
+
+.bar {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  background: rgba(220, 20, 60, 0.9);
+}
+
+/*animate*/
+.main_section {
+  position: relative;
+  margin: 0 auto;
+  height: 6000px;
+  background-color: CornflowerBlue;
+}
+.container {
+  position: fixed;
+  background: rgba(255,255,255, 0.2);
+  border-radius: 50%;
+  top: 10%;
+  left: 50%;
+  margin-left: -181px;
+  width: 363px;
+  height: 363px;
+  z-index: 9998;
+}
+
+.character {
+  margin: 0 auto;
+  width: 98px;
+  height: 336px;
+  background:  url('../img/personagem2.png') 0 0%;
+  background-size: 100%;
+  z-index: 9999;
+}
+
+.stopped {
+  background:  url('../img/personagem2.png') center center;
+}
