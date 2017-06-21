@@ -3,40 +3,77 @@ body {
   padding: 0;
 }
 
-ul {
-  position: relative;
+.modal {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(100, 149, 237, 0.90);
+  z-index: 10000;
+}
+
+.chooseCht {
+  display: block;
+  margin: 0 auto;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.chooseCht:hover {
+  transform: scale(1.05);
+}
+
+.cht1 {
+  background: rgba(255, 255, 255, 0.2) url('../img/avatar1.png') top center;
+}
+
+.cht2 {
+  background: rgba(255, 255, 255, 0.2) url('../img/avatar2.png') top center;
+}
+
+.cht3 {
+  background: rgba(255, 255, 255, 0.2) url('../img/avatar3.png') top center;
+}
+
+
+.backChoose {
+  position: fixed;
   top: 10px;
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
-}
-.lista li{
-  display: inline;
-  margin: 0 auto;
-  padding: 5px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
   text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.15);
-}
-
-.lista a {
   font-family: sans-serif;
-  text-align: center;
-  font-size: 12px;
-  color: white;
-  text-decoration: none;
+  font-size: 14px;
+  line-height: 14px;
+  color: CornFlowerBlue;
 }
 
-.lista a:hover {
-  color: blue;
+.backChoose:hover {
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
-/*animate*/
+.backChoose::before {
+  font-family: FontAwesome;
+  content: "\f2bd";
+  display: block;
+  float: left;
+  margin-right: 4px;
+  font-size: 18px;
+}
+
 .main_section {
+  display: none;
   position: relative;
   margin: 0 auto;
   height: 6000px;
   background-color: CornflowerBlue;
 }
+
+/*animate*/
 .container {
   position: fixed;
   align-items: center;
@@ -50,15 +87,24 @@ ul {
   z-index: 9998;
 }
 
+.characterCtn {
+  margin: 0 auto;
+  width: 98px;
+  height: 336px;
+  background-position: center;
+  background-size: 100%;
+  z-index: 9999;
+}
+
 .character {
   margin: 0 auto;
   width: 98px;
   height: 336px;
-  background:  url('../img/personagem1.png') 0 0%;
+  background:  url('') 0 0%;
   background-size: 100%;
   z-index: 9999;
 }
 
 .stopped {
-  background:  url('../img/personagem1.png') center center;
+  background:  url('') center center;
 }
