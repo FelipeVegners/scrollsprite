@@ -10,7 +10,7 @@ body {
   overflow: hidden;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(100, 149, 237, 0.90);
+  background-color: rgba(23,104,166, 0.9);
   z-index: 10000;
 }
 
@@ -49,7 +49,7 @@ body {
   font-family: sans-serif;
   font-size: 14px;
   line-height: 14px;
-  color: CornFlowerBlue;
+  color: #1768a6;
 }
 
 .backChoose:hover {
@@ -70,7 +70,7 @@ body {
   position: relative;
   margin: 0 auto;
   height: 6000px;
-  background-color: CornflowerBlue;
+  background: url('../img/bg_stage1.png') top left / contain repeat-y;
 }
 
 /*animate*/

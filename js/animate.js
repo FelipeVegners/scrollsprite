@@ -1,4 +1,4 @@
-//Character Animation with Scroll the page
+//Character Animation with Scroll the page by @felipevegners (vegners.com)
 //Stop Character Position w/ stop scrolling
 var personagem = $('.characterCtn');
 var modal = $('.modal');
