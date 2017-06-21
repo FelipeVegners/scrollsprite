@@ -1,3 +1,3 @@
-# walkingScroll
-This is the code for character walk while scrolling the page and change by selection.
+# Walking Scroll
 This project are actually in development for Kroton Educational Company (www.kroton.com.br).
+It's the code for character walk while scrolling the page and change by selection.
