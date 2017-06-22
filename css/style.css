@@ -38,6 +38,18 @@ body {
 .cht3 {
   background: rgba(255, 255, 255, 0.2) url('../img/avatar3.png') top center;
 }
+.cht4 {
+  background: rgba(255, 255, 255, 0.2) url('../img/avatar4.png') top center;
+}
+.cht5 {
+  background: rgba(255, 255, 255, 0.2) url('../img/avatar5.png') top center;
+}
+.cht6 {
+  background: rgba(255, 255, 255, 0.2) url('../img/avatar6.png') top center;
+}
+.cht7 {
+  background: rgba(255, 255, 255, 0.2) url('../img/avatar7.png') top center;
+}
 
 
 .backChoose {

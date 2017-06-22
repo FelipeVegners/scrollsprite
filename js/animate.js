@@ -19,6 +19,26 @@ $('#btn3').click(function(){
   modal.css('display' , 'none');
   $('.main_section').css('display' , 'flex');
 });
+$('#btn4').click(function(){
+  personagem.css('background-image', 'url(img/personagem4.png)');
+  modal.css('display' , 'none');
+  $('.main_section').css('display' , 'flex');
+});
+$('#btn5').click(function(){
+  personagem.css('background-image', 'url(img/personagem5.png)');
+  modal.css('display' , 'none');
+  $('.main_section').css('display' , 'flex');
+});
+$('#btn6').click(function(){
+  personagem.css('background-image', 'url(img/personagem6.png)');
+  modal.css('display' , 'none');
+  $('.main_section').css('display' , 'flex');
+});
+$('#btn7').click(function(){
+  personagem.css('background-image', 'url(img/personagem7.png)');
+  modal.css('display' , 'none');
+  $('.main_section').css('display' , 'flex');
+});
 
 //Back to avatar list
 $('.backChoose').click(function(){
