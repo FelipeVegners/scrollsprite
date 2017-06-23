@@ -39,6 +39,11 @@ $('#btn7').click(function(){
   modal.css('display' , 'none');
   $('.main_section').css('display' , 'flex');
 });
+$('#btn8').click(function(){
+  personagem.css('background-image', 'url(img/personagem8.png)');
+  modal.css('display' , 'none');
+  $('.main_section').css('display' , 'flex');
+});
 
 //Back to avatar list
 $('.backChoose').click(function(){
