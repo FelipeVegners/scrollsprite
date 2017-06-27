@@ -1,23 +1,28 @@
 //Character Animation with Scroll the page by @felipevegners (vegners.com)
+//
 //Stop Character Position w/ stop scrolling
 var personagem = $('.characterCtn');
 var modal = $('.modal');
+var divisor1 = $('.div1');
 
 //Choose Avatar from the list and set to background of characterCtn
 $('#btn1').click(function(){
   personagem.css('background-image', 'url(img/personagem1.png)');
   modal.css('display' , 'none');
   $('.main_section').css('display' , 'flex');
+  divisor1.css({'background-image':'url(img/testeira1_p1.png)'});
 });
 $('#btn2').click(function(){
   personagem.css('background-image', 'url(img/personagem2.png)');
   modal.css('display' , 'none');
   $('.main_section').css('display' , 'flex');
+  divisor1.css({'background-image':'url(img/testeira1_p2.png)'});
 });
 $('#btn3').click(function(){
   personagem.css('background-image', 'url(img/personagem3.png)');
   modal.css('display' , 'none');
   $('.main_section').css('display' , 'flex');
+  divisor1.css({'background-image':'url(img/testeira1_p3.png)'});
 });
 $('#btn4').click(function(){
   personagem.css('background-image', 'url(img/personagem4.png)');
@@ -47,10 +52,9 @@ $('#btn8').click(function(){
 
 //Back to avatar list
 $('.backChoose').click(function(){
-  modal.css('display' , 'flex')
+  modal.css('display' , 'flex');
   $('.main_section').css('display' , 'none');
 });
-
 
 $(window).scroll(function() {
   clearTimeout($.data(this, 'scrollTimer'));
@@ -59,7 +63,10 @@ $(window).scroll(function() {
   }, 200));
   personagem.removeClass('character stopped').addClass('character');
 });
-// initialise ScrollMagic controller
+
+//Animation of character using ScrollMagig and GreenSock plugin
+//
+// initialize ScrollMagic controller
 var controller = new ScrollMagic.Controller();
 
 // create Tween

@@ -54,7 +54,6 @@ body {
   background: rgba(255, 255, 255, 0.2) url('../img/avatar8.png') top center;
 }
 
-
 .backChoose {
   position: fixed;
   top: 10px;
@@ -65,6 +64,7 @@ body {
   font-size: 14px;
   line-height: 14px;
   color: #1768a6;
+  z-index: 10002;
 }
 
 .backChoose:hover {
@@ -84,17 +84,28 @@ body {
   display: none;
   position: relative;
   margin: 0 auto;
-  height: 6000px;
-  background: url('../img/bg_stage1.png') top left / contain repeat-y;
+  height: 2000px;
+  background: url('../img/bg_stage1.png') top left / cover repeat-y;
+}
+
+/*testeiras*/
+
+.div1 {
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+  height: 450px;
+  background: red url('') center center / cover no-repeat;
+  z-index: 10001;
 }
 
 /*animate*/
 .container {
   position: fixed;
-  align-items: center;
   background: rgba(255,255,255, 0.2);
   border-radius: 50%;
-  top: 10%;
+  top: 50%;
+  margin-top: -181px;
   left: 50%;
   margin-left: -181px;
   width: 363px;
