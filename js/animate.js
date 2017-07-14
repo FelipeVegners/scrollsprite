@@ -5,6 +5,8 @@ var personagem = $('.characterCtn');
 var modal = $('.modal');
 var divisor1 = $('.div1');
 
+//Here I'll try some DRY code
+
 //Choose Avatar from the list and set to background of characterCtn
 $('#btn1').click(function(){
   personagem.css('background-image', 'url(img/personagem1.png)');
